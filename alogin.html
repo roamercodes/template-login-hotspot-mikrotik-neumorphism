@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&dispplay=swap" />
     $(if refresh-timeout)
     <script>
-        setTimeout(function(){
-        location.href = './status';
-        },4000)
+        // setTimeout(function(){
+        // location.href = './status';
+        // },4000)
     </script>
     $(endif)
 </head>
@@ -19,8 +19,11 @@
 <body>
     <div class="container-login">
         <div class="logo">
-            <img src="assets/shield.svg" alt="">
+            <!-- <img src="assets/shield.svg" alt=""> -->
+            <!-- <div class="link">MKNET HOTSPOT</div> -->
         </div>
+        <div class="logo2"></div>
+        <div class="logo3"></div>
         <div class="title">Yhotie.com</div>
         $(if login-by == 'trial')
         <div class="sub-title">Selamat Datang, Pengguna Trial</div>
@@ -33,7 +36,7 @@
         <div class="menu-items">
 
             <div class="row-items">
-                <div class="title-success"> Anda telah terhubung di jaringan <b>vue.net</b>.</div>
+                <div class="title-success"> Anda telah terhubung di jaringan <b>mk.net</b>.</div>
             </div>
 
         </div>
