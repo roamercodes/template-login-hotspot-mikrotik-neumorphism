@@ -1,4 +1,4 @@
 ## look!
-![image](screenshot.png)
+![image](newss.png)
 
 made with :heart: in Bali
